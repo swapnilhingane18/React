@@ -1,5 +1,17 @@
 .Product{
-    border:1px solid black;
+    border:1px solid rgb(135, 0, 0);
     padding:10px;
     margin:10px;
+    height:220px;
+    width:220px;
+    border-radius: 25px;
+    display :flex;
+    flex-direction:column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.Product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
